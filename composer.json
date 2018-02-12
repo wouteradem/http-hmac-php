@@ -1,5 +1,5 @@
 {
-    "name": "acquia/http-hmac-php",
+    "name": "wouteradem/http-hmac-php",
     "type": "library",
     "description": "An implementation of the HTTP HMAC Spec in PHP that integrates with popular libraries such as Symfony and Guzzle.",
     "homepage": "https://github.com/acquia/http-hmac-php",
