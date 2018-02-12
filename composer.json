@@ -42,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Acquia\\Hmac\\": "src/"
+            "WouterAdem\\Hmac\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Acquia\\Hmac\\Test\\": "test/"
+            "WouterAdem\\Hmac\\Test\\": "test/"
         }
     }
 }

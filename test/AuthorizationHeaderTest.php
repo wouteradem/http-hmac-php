@@ -1,11 +1,11 @@
 <?php
 
-namespace Acquia\Hmac\Test;
+namespace WouterAdem\Hmac\Test;
 
-use Acquia\Hmac\AuthorizationHeader;
-use Acquia\Hmac\AuthorizationHeaderBuilder;
-use Acquia\Hmac\Exception\MalformedRequestException;
-use Acquia\Hmac\Key;
+use WouterAdem\Hmac\AuthorizationHeader;
+use WouterAdem\Hmac\AuthorizationHeaderBuilder;
+use WouterAdem\Hmac\Exception\MalformedRequestException;
+use WouterAdem\Hmac\Key;
 use GuzzleHttp\Psr7\Request;
 
 /**

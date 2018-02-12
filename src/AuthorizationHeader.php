@@ -1,8 +1,8 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
-use Acquia\Hmac\Exception\MalformedRequestException;
+use WouterAdem\Hmac\Exception\MalformedRequestException;
 use Psr\Http\Message\RequestInterface;
 
 class AuthorizationHeader implements AuthorizationHeaderInterface

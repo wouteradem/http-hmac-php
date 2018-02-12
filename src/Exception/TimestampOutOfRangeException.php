@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Hmac\Exception;
+namespace WouterAdem\Hmac\Exception;
 
 /**
  * Exception thrown for requests that are properly formed but are not

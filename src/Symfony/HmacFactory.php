@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Hmac\Symfony;
+namespace WouterAdem\Hmac\Symfony;
 
 use Symfony\Bundle\SecurityBundle\DependencyInjection\Security\Factory\SecurityFactoryInterface;
 use Symfony\Component\DependencyInjection\ChildDefinition;

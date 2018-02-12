@@ -1,11 +1,11 @@
 <?php
 
-namespace Acquia\Hmac\Guzzle;
+namespace WouterAdem\Hmac\Guzzle;
 
-use Acquia\Hmac\Exception\MalformedResponseException;
-use Acquia\Hmac\KeyInterface;
-use Acquia\Hmac\RequestSigner;
-use Acquia\Hmac\ResponseAuthenticator;
+use WouterAdem\Hmac\Exception\MalformedResponseException;
+use WouterAdem\Hmac\KeyInterface;
+use WouterAdem\Hmac\RequestSigner;
+use WouterAdem\Hmac\ResponseAuthenticator;
 use Guzzle\Http\Exception\BadResponseException;
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\RequestInterface;

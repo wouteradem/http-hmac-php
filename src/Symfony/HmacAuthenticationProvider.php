@@ -1,8 +1,8 @@
 <?php
 
-namespace Acquia\Hmac\Symfony;
+namespace WouterAdem\Hmac\Symfony;
 
-use Acquia\Hmac\RequestAuthenticatorInterface;
+use WouterAdem\Hmac\RequestAuthenticatorInterface;
 use Symfony\Bridge\PsrHttpMessage\Factory\DiactorosFactory;
 use Symfony\Component\Security\Core\Authentication\Provider\AuthenticationProviderInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Acquia\Hmac\Test\Symfony;
+namespace WouterAdem\Hmac\Test\Symfony;
 
-use Acquia\Hmac\Key;
-use Acquia\Hmac\KeyInterface;
-use Acquia\Hmac\Symfony\HmacAuthenticationListener;
-use Acquia\Hmac\Symfony\HmacToken;
+use WouterAdem\Hmac\Key;
+use WouterAdem\Hmac\KeyInterface;
+use WouterAdem\Hmac\Symfony\HmacAuthenticationListener;
+use WouterAdem\Hmac\Symfony\HmacToken;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;

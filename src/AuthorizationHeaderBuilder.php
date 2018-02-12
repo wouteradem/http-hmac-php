@@ -1,10 +1,10 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
-use Acquia\Hmac\Digest\DigestInterface;
-use Acquia\Hmac\Digest\Digest;
-use Acquia\Hmac\Exception\MalformedRequestException;
+use WouterAdem\Hmac\Digest\DigestInterface;
+use WouterAdem\Hmac\Digest\Digest;
+use WouterAdem\Hmac\Exception\MalformedRequestException;
 use Psr\Http\Message\RequestInterface;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
 /**
  * Base64KeyLoader class for loading keys and Base64 encoding them.

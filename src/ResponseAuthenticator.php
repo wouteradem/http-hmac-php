@@ -1,8 +1,8 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
-use Acquia\Hmac\Exception\MalformedResponseException;
+use WouterAdem\Hmac\Exception\MalformedResponseException;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

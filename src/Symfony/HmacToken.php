@@ -1,8 +1,8 @@
 <?php
 
-namespace Acquia\Hmac\Symfony;
+namespace WouterAdem\Hmac\Symfony;
 
-use Acquia\Hmac\KeyInterface;
+use WouterAdem\Hmac\KeyInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Authentication\Token\AbstractToken;
 

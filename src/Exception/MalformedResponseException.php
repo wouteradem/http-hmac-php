@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Hmac\Exception;
+namespace WouterAdem\Hmac\Exception;
 
 use Psr\Http\Message\ResponseInterface;
 

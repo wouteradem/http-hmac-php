@@ -1,12 +1,12 @@
 <?php
 
-namespace Acquia\Hmac\Test;
+namespace WouterAdem\Hmac\Test;
 
-use Acquia\Hmac\AuthorizationHeaderBuilder;
-use Acquia\Hmac\Exception\MalformedResponseException;
-use Acquia\Hmac\Guzzle\HmacAuthMiddleware;
-use Acquia\Hmac\Key;
-use Acquia\Hmac\Test\Mocks\MockHmacAuthMiddleware;
+use WouterAdem\Hmac\AuthorizationHeaderBuilder;
+use WouterAdem\Hmac\Exception\MalformedResponseException;
+use WouterAdem\Hmac\Guzzle\HmacAuthMiddleware;
+use WouterAdem\Hmac\Key;
+use WouterAdem\Hmac\Test\Mocks\MockHmacAuthMiddleware;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

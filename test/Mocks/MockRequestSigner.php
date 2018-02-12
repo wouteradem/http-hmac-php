@@ -1,11 +1,11 @@
 <?php
 
-namespace Acquia\Hmac\Test\Mocks;
+namespace WouterAdem\Hmac\Test\Mocks;
 
-use Acquia\Hmac\AuthorizationHeaderInterface;
-use Acquia\Hmac\Digest\DigestInterface;
-use Acquia\Hmac\KeyInterface;
-use Acquia\Hmac\RequestSigner;
+use WouterAdem\Hmac\AuthorizationHeaderInterface;
+use WouterAdem\Hmac\Digest\DigestInterface;
+use WouterAdem\Hmac\KeyInterface;
+use WouterAdem\Hmac\RequestSigner;
 use Psr\Http\Message\RequestInterface;
 
 /**

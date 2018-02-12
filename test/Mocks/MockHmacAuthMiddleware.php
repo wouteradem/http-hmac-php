@@ -1,11 +1,11 @@
 <?php
 
-namespace Acquia\Hmac\Test\Mocks;
+namespace WouterAdem\Hmac\Test\Mocks;
 
-use Acquia\Hmac\AuthorizationHeader;
-use Acquia\Hmac\Digest\Digest;
-use Acquia\Hmac\Guzzle\HmacAuthMiddleware;
-use Acquia\Hmac\KeyInterface;
+use WouterAdem\Hmac\AuthorizationHeader;
+use WouterAdem\Hmac\Digest\Digest;
+use WouterAdem\Hmac\Guzzle\HmacAuthMiddleware;
+use WouterAdem\Hmac\KeyInterface;
 
 /**
  * Allows the signing of requests with a custom authorization header.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
-use Acquia\Hmac\Exception\InvalidSignatureException;
-use Acquia\Hmac\Exception\KeyNotFoundException;
-use Acquia\Hmac\Exception\MalformedRequestException;
-use Acquia\Hmac\Exception\TimestampOutOfRangeException;
+use WouterAdem\Hmac\Exception\InvalidSignatureException;
+use WouterAdem\Hmac\Exception\KeyNotFoundException;
+use WouterAdem\Hmac\Exception\MalformedRequestException;
+use WouterAdem\Hmac\Exception\TimestampOutOfRangeException;
 use Psr\Http\Message\RequestInterface;
 
 class RequestAuthenticator implements RequestAuthenticatorInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
 use Psr\Http\Message\RequestInterface;
 

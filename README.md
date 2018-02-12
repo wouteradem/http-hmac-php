@@ -29,8 +29,8 @@ Please refer to [Composer's documentation](https://github.com/composer/composer/
 
 ```php
 
-use Acquia\Hmac\Guzzle\HmacAuthMiddleware;
-use Acquia\Hmac\Key;
+use WouterAdem\Hmac\Guzzle\HmacAuthMiddleware;
+use WouterAdem\Hmac\Key;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 
@@ -65,8 +65,8 @@ var_dump($result);
 ### Authenticate the request using PSR-7-compatible requests
 
 ```php
-use Acquia\Hmac\RequestAuthenticator;
-use Acquia\Hmac\ResponseSigner;
+use WouterAdem\Hmac\RequestAuthenticator;
+use WouterAdem\Hmac\ResponseSigner;
 
 // $keyLoader implements \Acquia\Hmac\KeyLoaderInterface
 $authenticator = new RequestAuthenticator($keyLoader);
@@ -96,7 +96,7 @@ In order to use the provided Silex security provider, you will need to include t
 Sample implementation:
 
 ```php
-use Acquia\Hmac\HmacSecurityProvider;
+use WouterAdem\Hmac\HmacSecurityProvider;
 use Silex\Application;
 use Silex\Provider\SecurityServiceProvider;
 
@@ -179,7 +179,7 @@ security:
 // src/AppBundle/AppBundle.php
 namespace AppBundle;
 
-use Acquia\Hmac\Symfony\HmacFactory;
+use WouterAdem\Hmac\Symfony\HmacFactory;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

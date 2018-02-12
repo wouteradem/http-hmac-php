@@ -1,9 +1,9 @@
 <?php
 
-namespace Acquia\Hmac\Test\Symfony;
+namespace WouterAdem\Hmac\Test\Symfony;
 
-use Acquia\Hmac\KeyInterface;
-use Acquia\Hmac\Symfony\HmacToken;
+use WouterAdem\Hmac\KeyInterface;
+use WouterAdem\Hmac\Symfony\HmacToken;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

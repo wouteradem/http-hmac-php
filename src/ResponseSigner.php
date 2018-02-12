@@ -1,9 +1,9 @@
 <?php
 
-namespace Acquia\Hmac;
+namespace WouterAdem\Hmac;
 
-use Acquia\Hmac\Digest\Digest;
-use Acquia\Hmac\Digest\DigestInterface;
+use WouterAdem\Hmac\Digest\Digest;
+use WouterAdem\Hmac\Digest\DigestInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

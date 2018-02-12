@@ -1,15 +1,15 @@
 <?php
 
-namespace Acquia\Hmac\Symfony;
+namespace WouterAdem\Hmac\Symfony;
 
-use Acquia\Hmac\KeyLoaderInterface;
-use Acquia\Hmac\RequestAuthenticator;
-use Acquia\Hmac\Symfony\HmacAuthenticationEntryPoint;
-use Acquia\Hmac\Symfony\HmacAuthenticationListener;
-use Acquia\Hmac\Symfony\HmacAuthenticationProvider;
+use WouterAdem\Hmac\KeyLoaderInterface;
+use WouterAdem\Hmac\RequestAuthenticator;
+use WouterAdem\Hmac\Symfony\HmacAuthenticationEntryPoint;
+use WouterAdem\Hmac\Symfony\HmacAuthenticationListener;
+use WouterAdem\Hmac\Symfony\HmacAuthenticationProvider;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
-use Acquia\Hmac\Symfony\HmacResponseListener;
+use WouterAdem\Hmac\Symfony\HmacResponseListener;
 
 /**
  * A Silex service provider to provide Acquia HTTP Hmac as a firewall option.

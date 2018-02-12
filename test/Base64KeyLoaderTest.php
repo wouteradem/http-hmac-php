@@ -1,8 +1,8 @@
 <?php
 
-namespace Acquia\Hmac\Test;
+namespace WouterAdem\Hmac\Test;
 
-use Acquia\Hmac\Base64KeyLoader;
+use WouterAdem\Hmac\Base64KeyLoader;
 
 /**
  * Tests the key for authenticating and signing requests.

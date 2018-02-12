@@ -1,6 +1,6 @@
 <?php
 
-namespace Acquia\Hmac\Digest;
+namespace WouterAdem\Hmac\Digest;
 
 interface DigestInterface
 {

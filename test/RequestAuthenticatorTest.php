@@ -1,13 +1,13 @@
 <?php
 
-namespace Acquia\Hmac\Test;
+namespace WouterAdem\Hmac\Test;
 
-use Acquia\Hmac\AuthorizationHeader;
-use Acquia\Hmac\Exception\MalformedRequestException;
-use Acquia\Hmac\KeyInterface;
-use Acquia\Hmac\RequestAuthenticator;
-use Acquia\Hmac\Test\Mocks\MockKeyLoader;
-use Acquia\Hmac\Test\Mocks\MockRequestAuthenticator;
+use WouterAdem\Hmac\AuthorizationHeader;
+use WouterAdem\Hmac\Exception\MalformedRequestException;
+use WouterAdem\Hmac\KeyInterface;
+use WouterAdem\Hmac\RequestAuthenticator;
+use WouterAdem\Hmac\Test\Mocks\MockKeyLoader;
+use WouterAdem\Hmac\Test\Mocks\MockRequestAuthenticator;
 use GuzzleHttp\Psr7\Request;
 
 class RequestAuthenticatorTest extends \PHPUnit_Framework_TestCase

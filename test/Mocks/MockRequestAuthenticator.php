@@ -1,12 +1,12 @@
 <?php
 
-namespace Acquia\Hmac\Test\Mocks;
+namespace WouterAdem\Hmac\Test\Mocks;
 
-use Acquia\Hmac\AuthorizationHeaderInterface;
-use Acquia\Hmac\Digest\Digest;
-use Acquia\Hmac\KeyInterface;
-use Acquia\Hmac\KeyLoaderInterface;
-use Acquia\Hmac\RequestAuthenticator;
+use WouterAdem\Hmac\AuthorizationHeaderInterface;
+use WouterAdem\Hmac\Digest\Digest;
+use WouterAdem\Hmac\KeyInterface;
+use WouterAdem\Hmac\KeyLoaderInterface;
+use WouterAdem\Hmac\RequestAuthenticator;
 
 /**
  * Allows the authentication of requests with a custom authorization header.
