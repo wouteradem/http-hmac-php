@@ -40,9 +40,6 @@
         "symfony/security": "~3.0.0",
         "zendframework/zend-diactoros": "~1.3.5"
     },
-    "replace": {
-        "acquia/hmac-request": "self.version"
-    },
     "autoload": {
         "psr-4": {
             "Acquia\\Hmac\\": "src/"
